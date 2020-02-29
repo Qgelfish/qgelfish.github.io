@@ -151,5 +151,8 @@ footer p {
 
     .--mobile {
         flex-flow: column nowrap;
+        align-items: center;
     }
+
+
   }
