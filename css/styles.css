@@ -16,6 +16,13 @@ body {
     width: 80%;
 }
 
+.banner {
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
+    width: 100%;
+}
+
 .page-title {
     color: white;
     display: inline-block;
@@ -71,10 +78,6 @@ footer {
 footer p {
     margin: 0;
     padding: 0;
-}
-
-.showcase {
-    background: rgba(0,0,0,0.6);
 }
 
 .sticky {
