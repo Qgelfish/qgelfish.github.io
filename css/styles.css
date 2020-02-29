@@ -93,8 +93,12 @@ footer p {
 .box {
     display: flex;
     flex-flow: column nowrap;
-    margin: 10px 0;
+    margin: 10px 0 10px 15px;
     max-width: 250px;
+}
+
+.box:first-of-type {
+    margin-left: 0;
 }
 
 #service {
@@ -140,6 +144,16 @@ footer p {
     width: 80%;
 }
 
+@media only screen and (max-width: 800px) {
+    .--mobile {
+        flex-flow: column nowrap;
+    }
+
+    .box {
+        max-width: 500px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .container {
         width: 100%;
@@ -154,5 +168,7 @@ footer p {
         align-items: center;
     }
 
-
+    .box {
+        max-width: 250px;
+    }
   }
